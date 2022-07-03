@@ -1,0 +1,127 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "description": "micro amd athlon",
+      "price": 2000,
+      "stock": 15,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=495&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 2,
+      "description": "auriculares gamer Red Dragon",
+      "price": 4500,
+      "stock": 6,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=2003&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 3,
+      "description": "disco rigido wd 1tb",
+      "price": 6000,
+      "stock": 10,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=501&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 4,
+      "description": "disipador id cooling",
+      "price": 3500,
+      "stock": 11,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=943&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 5,
+      "description": "fuente 600w gamer",
+      "price": 8000,
+      "stock": 2,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=683&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 6,
+      "description": "gabinete gamer d cool",
+      "price": 4800,
+      "stock": 5,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=445&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 7,
+      "description": "gabinete gamer phanteks",
+      "price": 5200,
+      "stock": 7,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=771&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 8,
+      "description": "placa de video asus gtx 1650 ",
+      "price": 50000,
+      "stock": 2,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=1393&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 9,
+      "description": "micro intel i5 10th",
+      "price": 28000,
+      "stock": 3,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=489&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 10,
+      "description": "memoria crucial ddr4 8gb 3200",
+      "price": 7200,
+      "stock": 14,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=1413&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 11,
+      "description": "motherboard asus AMD",
+      "price": 8200,
+      "stock": 6,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=529&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 12,
+      "description": "mouse gamer ",
+      "price": 3200,
+      "stock": 9,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=1977&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 13,
+      "description": "ssd crucial 500gb ",
+      "price": 5500,
+      "stock": 9,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=71&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    },
+    {
+      "id": 14,
+      "description": "tablet amazon",
+      "price": 25000,
+      "stock": 2,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=1661&useDensity=false&width=1280&height=720&tipoEscala=contain"
+    },
+    {
+      "id": 15,
+      "description": "teclado red dragon kumara",
+      "price": 4600,
+      "stock": 5,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=257&useDensity=true&width=1360&height=625&tipoEscala=contain"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "description": "auriculares gamer Red Dragon",
+      "price": 4500,
+      "stock": 6,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=2003&useDensity=false&width=1280&height=720&tipoEscala=contain",
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "description": "micro amd athlon",
+      "price": 2000,
+      "stock": 15,
+      "img": "https://ss-static-01.esmsv.com/id/115190/productos/obtenerimagen/?id=495&useDensity=true&width=1360&height=625&tipoEscala=contain",
+      "quantity": 1
+    }
+  ]
+}

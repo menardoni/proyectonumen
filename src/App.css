@@ -1,0 +1,376 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+  
+@media screen and (min-width:841px) {
+  .menubtn{
+    display: none;
+  }
+  .nav{
+    visibility: visible;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 840px) {
+
+  .menubtn{
+    
+    visibility: visible;
+    width: 100%;
+    text-align: center;
+  }
+  .navBar{
+    
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav{
+    display: none;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .slider{
+    height: 350px;
+  }
+  .sliderButtons{
+    display: none;
+  }
+  .info{
+    
+    align-items: center;
+    height: 100%;
+  }
+.infoText{
+  width: 100%;
+}
+.descRespM{
+  width: 200px;
+  margin-right: 5px ;
+}
+
+.modalResp h1{
+  font-size: 20px;
+  text-align:left;
+}
+.modalResp h2{
+  font-size: 20px;
+  text-align: left;
+}
+.dataResp{
+  width: auto;
+}
+
+.btnResp{
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  margin: 5px;
+}
+.btncloseResp{
+  position: fixed;
+  right: 5px;
+  top: 10px;
+}
+.respResp button{
+  display: none;
+
+}
+.respResp{
+  flex-direction:column;
+  height: auto;
+  font-size: 15px;
+}
+.contResp{
+  width: 100%;
+}
+.itemResp{
+  height: auto;
+}
+  
+}
+@media screen and (min-width: 640px)  and (max-width: 767px) {
+  .menubtn{
+    
+    visibility: visible;
+    width: 100%;
+    text-align: center;
+  }
+  .navBar{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav{
+    
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .sliderButtons{
+    display: none;
+  }
+  .slider{
+    height: 250px;
+  }
+  .info{
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .infoText{
+    font-size:medium;
+  }
+  .infoH{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+  }
+  .contResp{
+    flex-direction: column;
+  }
+
+  .prodResp{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+   
+  }
+  .contResp{
+    flex-direction: column;
+  }
+  .descResp{
+    width: 100%;
+    height: auto;
+    font-size: medium;
+    padding: 10px;
+    
+  }
+  .formResp{
+    width: 100%;
+    padding: 30px;
+  }
+  .modalResp img {
+    display: none;
+  
+  }
+  .modalResp h1{
+    font-size: 20px;
+    text-align:left;
+  }
+  .modalResp h2{
+    font-size: 20px;
+    text-align: left;
+  }
+  .dataResp{
+    width: auto;
+  }
+  
+  .btnResp{
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  .btncloseResp{
+    position: fixed;
+    right: 5px;
+    top: 10px;
+  }
+  .respResp button{
+    display: none;
+  
+  }
+  .respResp{
+    flex-direction:column;
+    height: auto;
+    font-size: 15px;
+  }
+  .contResp{
+    width: 100%;
+  }
+  .itemResp{
+    height: auto;
+  }
+
+}
+@media screen and (min-width: 320px)  and (max-width: 639px){
+  .menubtn{
+    
+    visibility: visible;
+    width: 100%;
+    text-align: center;
+  }
+  .navBar{
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+  }
+  .nav{
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .slider{
+    width: 100%;
+  }
+  .sliderButtons{
+    display: none;
+  }
+  .imagResp{
+    width: 100%;
+    height:150px ;
+  }
+  .info{
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .infoText{
+    margin: 0;
+    font-size: 20px;
+  }
+  .infoH{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size:30px;
+  }
+  .logoResp{
+    width: 100px;
+  }
+.somosResp{
+  flex-direction: column;
+  height: auto;
+}
+.somosText{
+  padding: 10px;
+}
+.somosCol{
+  width: 100%;
+  height: 10px;
+}
+.destResp{
+  height: 100%;
+  padding: auto;
+}
+.footResp{
+  align-items: center;
+  flex-direction: column;
+}
+.footSocial{
+  align-items: center;
+  flex-direction: column;
+}
+.footA{
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.contResp{
+  flex-direction: column;
+}
+.descResp{
+  width: 100%;
+  height: auto;
+  font-size: small;
+  padding: 10px;
+  
+}
+.formResp{
+  width: 100%;
+  padding: 10px;
+}
+.mantResp{
+  width: 100%;
+  
+}
+.prodResp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardResp{
+  width: 200px;
+  height: 300px;
+}
+.modalResp img {
+  display: none;
+
+}
+.modalResp{
+  flex-direction: column;
+  text-align: center;
+}
+.modalResp h1{
+  font-size: 15px;
+}
+.modalResp h2{
+  font-size: 15px;
+}
+
+.btnCResp{
+  flex-direction: column;
+}
+.btnResp{
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  margin: 5px;
+}
+.btncloseResp{
+  position: fixed;
+  right: 5px;
+  top: 10px;
+}
+.respResp button{
+  display: none;
+
+}
+.respResp{
+  flex-direction:column;
+  height: auto;
+  font-size: 15px;
+}
+.contResp{
+  width: 100%;
+}
+.itemResp{
+  height: auto;
+}
+
+}
